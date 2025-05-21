@@ -1,0 +1,35 @@
+body {
+    font-family: "Bebas Neue", cursive;
+}
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #a00;
+}
+.header-img {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    color: #a00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.header-img h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.header-img p {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+}
+footer {
+    background-color: #e5e5e5;
+    padding: 20px 0;
+    text-align: center;
+    color: #a00;
+    font-weight: bold;
+}
