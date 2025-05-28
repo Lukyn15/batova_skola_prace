@@ -33,3 +33,13 @@ footer {
     color: #a00;
     font-weight: bold;
 }
+
+.social-icon:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: #000000;
+}
