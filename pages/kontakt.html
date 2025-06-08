@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baťova škola práce</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="../images/logo.png" style="width: 100px; height: auto" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Historie</a></li>
+        <li class="nav-item"><a class="nav-link" href="obatovi.html">O Baťovi</a></li>
+        <li class="nav-item"><a class="nav-link" href="fotogalerie.html">Fotogalerie</a></li>
+        <li class="nav-item"><a class="nav-link" href="kontakt.html">Kontakt</a></li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Hledejte">
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="header-container">
+  <img src="../images/pozadi.jpg" alt="Background" class="header-bg">
+  <img src="../images/logo_bezpozadi.png" alt="Logo" class="header-title">
+</div>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Kontaktní formulář</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Jméno a příjmení</label>
+      <input type="text" class="form-control" id="name" placeholder="Vaše jméno" required>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">E-mail</label>
+      <input type="email" class="form-control" id="email" placeholder="vas@email.cz" required>
+    </div>
+    <div class="mb-3">
+      <label for="subject" class="form-label">Předmět</label>
+      <input type="text" class="form-control" id="subject" placeholder="Např. dotaz, zpětná vazba...">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Zpráva</label>
+      <textarea class="form-control" id="message" rows="5" placeholder="Napište svou zprávu zde..." required></textarea>
+    </div>
+    <button type="submit" class="btn btn-danger">Odeslat</button>
+  </form>
+</div>
+
+<footer class="bg-dark text-center text-white pt-4">
+  <div class="mb-4">
+    <a href="#" class="social-icon">
+      <i class="fab fa-facebook-f fa-2x"></i>
+    </a>
+    <a href="#" class="social-icon">
+      <i class="fab fa-instagram fa-2x"></i>
+    </a>
+    <a href="#" class="social-icon">
+      <i class="fab fa-twitter fa-2x"></i>
+    </a>
+    <a href="#" class="social-icon">
+      <i class="fab fa-google-plus-g fa-2x"></i>
+    </a>
+    <a href="#" class="social-icon">
+      <i class="fab fa-youtube fa-2x"></i>
+    </a>
+  </div>
+
+  <div class="mb-3">
+    <a href="index.html" class="text-white mx-3">Historie</a>
+    <a href="obatovi.html" class="text-white mx-3">O Baťovi</a>
+    <a href="fotogalerie.html" class="text-white mx-3">Fotogalerie</a>
+    <a href="kontakt.html" class="text-white mx-3">Kontakt</a>
+  </div>
+
+  <div class="bg-black py-2">
+    Copyright &copy;2025; Designed by <span class="text-primary">Lukáš Pospíšek</span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
